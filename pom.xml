@@ -26,7 +26,7 @@
 		<org.springframework.social.linkedin-version>1.0.0.RC1</org.springframework.social.linkedin-version>
 		<org.springframework.social.tripit-version>1.0.0.M3</org.springframework.social.tripit-version>
 		<org.springframework.mobile-version>1.0.0.RELEASE</org.springframework.mobile-version>
-		<org.aspectj-version>1.6.11</org.aspectj-version>
+		<org.aspectj-version>1.8.5</org.aspectj-version>
 		<org.slf4j-version>1.6.2</org.slf4j-version>
 	</properties>
 	<dependencies>
@@ -320,7 +320,7 @@
 		<dependency>
 			<groupId>net.java.dev.jets3t</groupId>
 			<artifactId>jets3t</artifactId>
-			<!-- The next release of jets3t should have support for HttpComponents 
+			<!-- The next release of jets3t should have support for HttpComponents
 				4.1 and HttpClient 3.1 will be removed from the classpath -->
 			<version>0.8.1</version>
 			<exclusions>
@@ -495,7 +495,7 @@
 							<goal>write-active-profile-properties</goal>
 						</goals>
 						<configuration>
-							<!-- Writes properties defined in current active profile(s) to application.properties, 
+							<!-- Writes properties defined in current active profile(s) to application.properties,
 								which is picked up by PropertyPlaceholderConfigurer in the classpath -->
 							<outputFile>${project.build.outputDirectory}/application.properties</outputFile>
 						</configuration>
@@ -583,7 +583,7 @@
 		</plugins>
 		<pluginManagement>
 			<plugins>
-				<!--This plugin's configuration is used to store Eclipse m2e settings 
+				<!--This plugin's configuration is used to store Eclipse m2e settings
 					only. It has no influence on the Maven build itself. -->
 				<plugin>
 					<groupId>org.eclipse.m2e</groupId>
